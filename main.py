@@ -35,8 +35,7 @@ class MainBot:
         print('He')
         pt = Praytime(pr.Content)
         pt.scrapping()
-        print("SALOM")
-
+        print("salom")
         await clb.message.answer(f"Ayni vaqitdagi {vil} dagi namoz vaxtlari:",reply_markup=pt.get_keyboards())
 
         await clb.answer(text = "ANSWER")
